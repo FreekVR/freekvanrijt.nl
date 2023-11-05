@@ -89,6 +89,7 @@
             </hgroup>
             <ul>
                 <li>Leading development teams</li>
+                <li>Problem solving and debugging</li>
                 <li>Building re-usable packages</li>
                 <li>Building, and working with, design systems</li>
                 <li>Optimizing both percieved and Google Pagespeed performance</li>
