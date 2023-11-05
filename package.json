@@ -6,7 +6,7 @@
     "lint": "vue-cli-service lint"
   },
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "packageManager": "pnpm@8.10.2",
   "dependencies": {
