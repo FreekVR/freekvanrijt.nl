@@ -17,7 +17,7 @@
 
             <p>
                 To reach this goals, over the years I've tried and used various technologies and frameworks. I like working with open source, building re-usable components and packages.
-                I hope to work on projects that have a positive impact on the world, and working in a diverse teams of highly skilled and involved people.
+                I hope to work on projects that have a positive impact on the world, in diverse teams of highly skilled and involved people.
             </p>
         </section>
 

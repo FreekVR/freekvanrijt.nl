@@ -1,13 +1,16 @@
 /* semantic color variables for this project */
 :root {
   --color-darkest: #111;
-  --color-lightest: #DDD6D2;
+  --color-lightest: #F4EBE6;
 
   --color--primary: #0500FF;
   --color--primary-light: #433FFF;
   --color--primary-dark: #020057;
 
   --section-gap: 160px;
+
+  --color-background: var(--color-lightest);
+  --color-text: var(--color-darkest);
 }
 
 @media (prefers-color-scheme: dark) {
