@@ -1,35 +1,54 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  max-width: calc(595px + 4rem);
   margin: 0 auto;
   padding: 2rem;
 
   font-weight: normal;
 }
 
-a,
-.green {
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+  color: var(--color--primary);
+  transition: color 0.4s ease-out;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    color: var(--color-primary-light);
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+a:active {
+  color: var(--color-primary-dark);
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+a:focus-visible {
+  text-decoration: underline;;
+}
+
+p + p {
+  margin-top: 20px;
+}
+
+h1,h2,h3,h4,h5 {
+  font-weight: bold;
+  margin: 12px 0 5px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.lead {
+  font-size: 24px;
 }
