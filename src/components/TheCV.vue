@@ -62,7 +62,8 @@
                             </p>
                             <ul>
                                 <li>Transitioned into a technical lead role.</li>
-                                <li>Responsible for technical quality of projects, refining Scrum backlog, and guiding the team.</li>
+                                <li>Defining and maintaining (coding) standards for the company (~10 developers)</li>
+                                <li>Responsible for technical quality of projects, refining Scrum backlog, and guiding a team of 4 developers.</li>
                                 <li>Works with clients to discuss technical impediments and ensure team efficiency.</li>
                                 <li>Helping to set-up and optimize team operations, both in the technical sense, including hosting, CI/CD pipelines and code sharing, but also in the operational sense, with Jira, Slack and automations.</li>
                                 <li>Following and guarding Scrum principles.</li>
@@ -74,7 +75,7 @@
                 </li>
 
                 <li>
-                    <WorkExperience from="september 2010" to="october 2015">
+                    <WorkExperience from="september 2010" to="october 2015" >
                         <template #location>
                             Utrecht, The Netherlands
                         </template>
@@ -96,8 +97,8 @@
                             </ul>
                         </template>
                     </WorkExperience>
+                    <div class="print-only"><br><br><br></div>
                 </li>
-
                 <li>
                     <WorkExperience from="april 2019" to="september 2010">
                         <template #location>

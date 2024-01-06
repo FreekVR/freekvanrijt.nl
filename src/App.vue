@@ -17,8 +17,10 @@ import TheCV from './components/TheCV.vue';
     </footer>
 </template>
 
-<style scoped>
-@media (min-width: 1024px) {
-
+<style>
+@media screen {
+  .print-only {
+    display: none;
+  }
 }
 </style>
