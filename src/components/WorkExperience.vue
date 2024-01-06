@@ -1,10 +1,12 @@
 <template>
-    <div class="wrapper">
+    <article class="wrapper">
         <header>
             <h5 class="company">
                 <slot name="company"></slot>
             </h5>
-
+            <h5>
+                <slot name="position"></slot>
+            </h5>
             <small class="location">
                 <slot name="location"></slot>
             </small>
@@ -14,10 +16,10 @@
             </small>
         </header>
 
-        <h5>
-            <slot name="position"></slot>
-        </h5>
-    </div>
+        <div class="description">
+            <slot name="description"></slot>
+        </div>
+    </article>
 </template>
 
 <script setup lang="ts">
@@ -36,7 +38,7 @@ defineProps({
 
 <style scoped>
 .wrapper {
-    margin-top: 12px;
+    margin-top: 28px;
 }
 
 h5 {
@@ -44,7 +46,7 @@ h5 {
 }
 
 h5.company {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 small.period,
@@ -54,5 +56,12 @@ small.location {
 
 h5.positon {
     font-size: 15px;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 200;
+
+    margin-top: 14px;
 }
 </style>
