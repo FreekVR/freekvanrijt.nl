@@ -11,16 +11,15 @@
 
         <section>
             <p class="lead">
-                Hi! My name is Freek. I am a full-stack webdeveloper specialized in Laravel, Vue.js and Nuxt.js applications.
+                Hey, I'm Freek, a full-stack webdeveloper specialized in Laravel, Vue.js and Nuxt.js.
             </p>
 
             <p>
-                I enjoy developing not (just) because I like to code, but to meet the needs and exceed the expectations of the end-user and build beautiful and smooth experiences.
+                I love coding because I want to build beautiful and smooth user experiences that make the end-users happy.
             </p>
-
+            
             <p>
-                To reach this goals, over the years I've tried and used various technologies and frameworks. I like working with open source, building re-usable components and packages.
-                I hope to work on projects that have a positive impact on the world, in diverse teams of highly skilled and involved people.
+                I enjoy building re-usable components and packages that can benefit other developers and projects. I would love to work on meaningful and impactful projects within diverse and talented teams.
             </p>
         </section>
 
